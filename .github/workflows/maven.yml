@@ -22,6 +22,7 @@ jobs:
           npm -v
   run-windows-commnd:
     runs-on: windows-latest
+    needs: ["run-shell-command"]
 
     steps:
       - name: run windows command

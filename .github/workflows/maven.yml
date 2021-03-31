@@ -28,4 +28,4 @@ jobs:
         run: Get-Location
       - name: Directory bash
         run: pwd
-        Shell: bash
+        shell: bash
